@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Overpass;
+}
+
+.container {
+    display:flex;
+}
+
+.result, .container{
+    width: 450px;
+    color: white;
+    background: linear-gradient(hsl(212, 20%, 13%),hsl(213, 19%, 9%));
+    border-radius: 2rem;
+    padding: 3rem;
+    flex-direction: column;
+}
+
+.result {
+    display: none;
+}
+
+
+.result img{
+    width: 45%;
+    margin: auto;
+}
+
+.selected {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    margin-top: 2rem;
+    padding: .5rem 1rem ;
+    border-radius: 2rem;
+}
+
+.selected p {
+    color: hsl(25, 86%, 45%);
+}
+
+.result h1{
+    margin: auto;
+    margin-top: 2rem;
+}
+
+#text2 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.circles {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 19%, 23%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    font-weight: bold;
+}
+
+.circle1 {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 19%, 23%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+#text {
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    margin-right: 3rem;
+}
+
+h1, #button {
+    margin-top: 2rem;
+}
+
+#button {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    padding: 1rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: bold;
+    border: none;
+}
+
+
+.circle:hover {
+    cursor: pointer;
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+
+#button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.clicked {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+
+
+
+
+
+
